@@ -1,0 +1,1179 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "is anyone there",
+        "are you there",
+        "hiya",
+        "how are you"
+      ],
+      "responses": [
+        "Hello! I'm the DeKUT Assistant — ask me anything about the university and I’ll help.",
+        "Greetings! I’m here to help you with information about Dedan Kimathi University of Technology."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "i'm leaving",
+        "talk to you later",
+        "ttyl",
+        "cya"
+      ],
+      "responses": [
+        "Goodbye! If you need more information later, come back anytime."
+      ]
+    },
+    {
+      "tag": "about_university",
+      "patterns": [
+        "tell me about the university",
+        "What is Dedan Kimathi University?",
+        "Tell me about DeKUT",
+        "Information on Dedan Kimathi University of Technology",
+        "what is dekut",
+        "about dkut",
+        "about dedan kimathi",
+        "what is Dedan Kimathi University of Technology"
+      ],
+      "responses": [
+        "Dedan Kimathi University of Technology (DeKUT) is a premier 'Entrepreneurial University' located in Nyeri. It operates on the 'Triple Helix' model, linking government, academia, and industry."
+      ]
+    },
+    {
+      "tag": "history_legacy",
+      "patterns": [
+        "history of dekut",
+        "when was dekut started",
+        "When was DeKUT founded",
+        "university background",
+        "What is the history of Dedan Kimathi University",
+        "How did Dedan Kimathi University start",
+        "Tell me about the origins of DeKUT",
+        "kimathi institute of technology"
+      ],
+      "responses": [
+        "The university started in 1972 as Kimathi Institute of Technology (KIT) through the 'Harambee' spirit.It was chartered as a full public university on December 14, 2012, by President Mwai Kibaki.It is named after Field Marshal Dedan Kimathi to honor the struggle for independence and liberation through education."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is dekut",
+        "where is dedan kimathi located",
+        "location of dekut",
+        "where is the university located",
+        "Address of Dedan Kimathi University",
+        "address of dkut",
+        "Where is DeKUT main campus",
+        "how far is dekut from nyeri",
+        "location of university"
+      ],
+      "responses": [
+  "Dedan Kimathi University of Technology is located about 6 km from Nyeri town along the Nyeri Mweiga highway.It sits on resource-rich grounds near Mt. Kenya, which supports its specialized mountaineering and tourism programs."
+      ]
+    },
+    {
+      "tag": "contacts",
+      "patterns": [
+        "what is the phone number",
+        "contact number",
+        "how can i contact the university",
+        "dekut phone",
+        "university contact",
+        "email for dekut",
+        "Dedan Kimathi University phone number",
+        "admissions contact"
+      ],
+      "responses": [
+        "You can reach Dedan Kimathi University of Technology (DeKUT) at: Main Campus contact and email:0713835965 email:marketing@dkut.ac.ke  and Nairobi CBD center contact and email : 0710127516 email directornairobi@dkut.ac.ke.For specific faculties, please ask for that department specifically."
+      ]
+    },
+    {
+      "tag": "office_hours",
+      "patterns": [
+        "what are the office hours",
+        "when is the university open",
+        "working hours",
+        "hours of operation",
+        "when are you open",
+        "what time do you close",
+        "are you open on weekends",
+        "can I come in on Saturday",
+        "what time does the office open",
+        "office timings"
+      ],
+      "responses": [
+        "The University generally operates Monday to Friday from 8:00 AM to 5:00 PM. Offices are closed on weekends and public holidays.",
+        "Our offices are open between 8:00 AM and 5:00 PM, Monday through Friday.",
+        "We are available weekdays from 8 am to 5 pm. We are closed on Saturdays and Sundays.",
+        "You can visit us during our standard operating hours: 8:00 AM - 5:00 PM, Mon-Fri."
+      ]
+    },
+
+    {
+      "tag":"school vc",
+      "patterns":[
+        "Who is the Vice Chancellor?",
+        "Who is the VC?",
+        "Who is the Vice-Chancellor of this university?",
+        "Tell me about the VC",
+        "Name of the Vice Chancellor",
+         "Current VC of the school",
+        "Who heads this university?",
+        "Who is the university VC?",
+         "Vice Chancellor details",
+        "Who is the chancellor?",
+        "Leader of this college",
+        " Who runs this university?"
+       
+      ],
+      "responses":[
+       " The Vice-Chancellor of Dedan Kimathi University of Technology is Prof. Eng. Peter N. Muchiri."
+
+      ]
+    },
+    {
+      "tag":"contact_schoolofengineering",
+      "patterns":[
+        "Contact details for School of engineering",
+        "Email for School of Engineering DeKUT",
+        "School of Engineering contacts",
+        "Give me the phone number for the School of Engineering",
+        "What is the email for the engineering department"
+      ],
+      "responses":[
+        "You can contact the School of Engineering at Dedan Kimathi University using the following details:Mobile 0713835969 Email dean_soe@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_schoolofbusiness",
+      "patterns":[
+        "Contact details for School of business",
+        "Email for School of business DeKUT",
+        "School of business contacts",
+        "Give me the phone number for the School of business",
+        "What is the email for the engineering department"
+      ],
+      "responses":[
+        "You can contact the School of Business,Management and Economics at Dedan Kimathi University using the following details:Mobile 0713835403 Email schoolofbusines@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_schoolofscience",
+      "patterns":[
+        "Contact details for School of science",
+        "Email for School of science DeKUT",
+        "School of science contacts",
+        "Give me the phone number for the School of science",
+        "What is the email for the science department"
+      ],
+      "responses":[
+        "You can contact the School of Science at Dedan Kimathi University using the following details:Mobile 0701782892 Email dean-sos@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_schoolofnursing",
+      "patterns":[
+        "Contact details for School of nursing",
+        "Email for School of nursing DeKUT",
+        "School of nursing contacts",
+        "Give me the phone number for the School of nursing",
+        "What is the email for the nursing department"
+      ],
+      "responses":[
+        "You can contact the School of Nursing at Dedan Kimathi University using the following details:Mobile 0700711628 Email nursing@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_schoolofscomputerscience",
+      "patterns":[
+        "Contact details for School of computer science",
+        "Email for School of computer science DeKUT",
+        "School of Computer science and IT contacts",
+        "Give me the phone number for the School of computer science",
+        "What is the email for the computer science and IT department"
+      ],
+      "responses":[
+        "You can contact the School of Computer Science and IT  at Dedan Kimathi University using the following details:Mobile 0713835979 Email dean-cs-it@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_schoolofgraduatestudies",
+      "patterns":[
+        "Contact details for School of Graduate studies",
+        "Email for School of Graduate studies DeKUT",
+        "School of Computer graduate studies contacts",
+        "Give me the phone number for the School of Graduate studies",
+        "What is the email for the Graduate Studies department"
+      ],
+      "responses":[
+        "You can contact the School of Graduate Studies at Dedan Kimathi University using the following details:Mobile 0709202939 Email graduateschool@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_instituteoftechnicalstudies",
+      "patterns":[
+        "Contact details for Insitute of technical studies",
+        "Email for itps",
+        "Institute of techncal and professional studies contact",
+        "Give me the phone number for the itps",
+        "What is the email for the ITPS department"
+      ],
+      "responses":[
+        "You can contact the Institute of Technical and Professional Studies at Dedan Kimathi University using the following details:Mobile 0713835396 Email itps@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_instituteofgematics",
+      "patterns":[
+        "Contact details for Insitute of Geomatics",
+        "Email for GIS",
+        "Institute of Geomatics and Remote sensing contact",
+        "Give me the phone number for the IGGRes",
+        "What is the email for the Institute of Geomatics,GIS and Remote sensing department"
+      ],
+      "responses":[
+        "You can contact the Institute of Geomatics,GIS and Remote sensing at Dedan Kimathi University using the following details:Mobile 0713835396 Email itps@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_instituteoftourism",
+      "patterns":[
+        "Contact details for Insitute of Tourism and Hospitality Management",
+        "Email for ITOHM",
+        "Institute of Tourism and Hospitality Management contact",
+        "Give me the phone number for the ITOHM",
+        "What is the email for the Institute of Tourism and Hospitality Management department"
+      ],
+      "responses":[
+        "You can contact the Institute of Tourism and Hospitality Management at Dedan Kimathi University using the following details:Mobile 0716659395 Email itohmoffice@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_instituteoffood",
+      "patterns":[
+        "Contact details for Insitute of Food and Bioresource Technology",
+        "Email for IFBT",
+        "Institute of Food and Bioresource Technology contact",
+        "Give me the phone number for the IFBT",
+        "What is the email for the Institute of Food and Bioresource Technology department"
+      ],
+      "responses":[
+        "You can contact the Institute of Food and Bioresource Technology at Dedan Kimathi University using the following details:Mobile 0729373564 Email ifbt@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag":"contact_Geothermalinstitute",
+      "patterns":[
+        "Contact details for Geothermal Institute",
+        "Email for GETRI",
+        "Geothermal Energy Training and Research Institute contact",
+        "Give me the phone number for the GETRI",
+        "What is the email for the Geothermal Energy Training and Research Institute  department"
+      ],
+      "responses":[
+        "You can contact the Geothermal Energy Training and Research Institute  at Dedan Kimathi University using the following details:Mobile 0110002455 Email getri@dkut.ac.ke"
+      ]
+    },
+    {
+      "tag": "admissions_general",
+      "patterns": [
+        "how do i apply",
+        "admission requirements",
+        "admissions process",
+        "entry requirements",
+        "how to apply to dekut",
+        "how much is the application fee",
+        "apply as a self sponsored student",
+        "KUCCPS application",
+        "online application link"
+      ],
+      "responses": [
+        "You can apply as a Government Sponsored (KUCCPS) or Self-Sponsored (SSP) student. Applications are digitized via the university portal.Application fees are KES 3,000 for PhD, KES 1,500 for Masters, and KES 1,000 for Undergraduate.How to Apply:Visit the portal, select your preferred program, and follow the instructions here:<a href='https://admissions.dkut.ac.ke/' target='_blank'>DeKUT Admission Portal</a>"
+      ]
+    },
+  
+    {
+      "tag": "fees_general",
+      "patterns": [
+        "fee structure",
+        "how much is tuition",
+        "fees for students",
+        "tuition fees",
+        "how much does it cost",
+        "fee details",
+        "how to pay fees"
+      ],
+      "responses": [
+        "Fees vary by program and sponsorship type. Payments can be made via M-PESA (Business Number 222222) or direct bank deposits.Always use your registration number as the account reference."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "financial aid",
+        "bursaries",
+        "work study",
+        "defao",
+        "financial aid help",
+        "how to apply for bursary",
+        "is work study available",
+        "I cannot pay my fees",
+        "scholarship opportunities",
+        "apply for work study",
+        "fee assistance",
+        "help with school fees"
+      ],
+      "responses": [
+        "The DeKUT Financial Aid Office (DeFAO) manages bursaries and a Work-Study program that allows students to work part-time within the university to earn money for their upkeep."
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "is there hostel",
+        "do you have accommodation",
+        "campus accommodation",
+        "student hostels",
+        "where do students stay",
+        "on-campus housing",
+        "external hostels"
+      ],
+      "responses": [
+        "DeKUT has limited internal hostels (approx. 152 spaces). Most students reside in vetted external hostels like Tazama Place, Kirathimo, and Sunrise Hostel.Rents range from KES 2,500 to KES 10,000 per month."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "student life",
+        "what sports are available",
+        "clubs and societies",
+        "dekutso",
+        "do you have a gym",
+        "football",
+        "basketball",
+        "indoor games",
+        "martial arts",
+        "athletics",
+        "entertainment",
+        "climb to educate"
+      ],
+      "responses": [
+        "DeKUT offers a dynamic student life with a wide range of sports and clubs. You can join outdoor teams (Football, Rugby, Hockey, Basketball), participate in indoor games (Badminton, Chess, Table Tennis), or join martial arts classes. The university also has numerous professional societies under DeKUTSO."
+
+      ]
+    },
+    {
+      "tag": "help_how_to_use",
+      "patterns": [
+        "help",
+        "how do i use this",
+        "what can you do",
+        "how can you help",
+        "what do you know",
+        "guide",
+        "how do i use this bot",
+        "start",
+        "what can you help me with"
+      ],
+      "responses": [
+        "I can provide information about DeKUT programmes, admissions, contacts, fees, department leadership and more. Ask a specific question like 'What are the engineering programmes?' or 'Who is the dean of engineering?'."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "i don't know what to ask",
+        "random question",
+        "can you answer anything",
+        "not sure"
+      ],
+      "responses": [
+        "If you're not sure where to start, try asking about admissions, programmes, or contact details. For example: 'What courses does the School of Engineering offer?'"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "who created you",
+        "who developed you",
+        "who made you",
+        "your developer",
+        "developer information"
+      ],
+      "responses": [
+        "I was created by Cheryl Achieng as part of a DeKUT final year project."
+      ]
+    },
+    {
+      "tag": "inquiry_schools_and_institutes",
+      "patterns": [
+        "list of schools and institutes",
+        "what faculties are in kimathi",
+        "departments in dekut",
+        "does dekut have a science school",
+        "does dekut have a school of engineering",
+        "does dekut have a school of Computer Science & IT",
+        "does dekut have a school of Business",
+        "does dekut have a school of Science",
+        "does dekut have a school of Graduate Studies",
+        "list of institutes",
+        "is there a school of medicine",
+        "faculties available"
+      ],
+      "responses": [
+        "Dedan Kimathi University (DeKUT) is organized into 6 Schools and 5 Institutes ,The  Schools are 1. School of Engineering 2. School of Computer Science & IT 3. School of Business Management & Economics 4. School of Nursing 5. School of Science 6. School of Graduate Studies and Institutes are 1. Institute of Food Bioresources Technology (IFBT) 2. Institute of Geomatics, GIS & Remote Sensing (IGGReS) 3. Institute of Tourism & Hospitality Management (ITHoM) 4. Geothermal Energy Training & Research Institute (GeTRI) 5. Institute of Technical & Professional Studies (ITPS - for Diplomas)"
+      ]
+    },
+    {
+      "tag": "inquiry_courses_general",
+      "patterns": [
+        "what courses do you offer",
+        "list of programmes",
+        "courses offered at dekut",
+        "degrees available",
+        "diploma courses",
+        "which courses are available",
+        "academic programmes",
+        "what can I study here",
+        "do you offer masters degrees",
+        "certificate courses"
+      ],
+      "responses": [
+        "DeKUT offers a wide range of Undergraduate, Postgraduate, and Diploma programmes across varying fields.To help me give you the correct list, please specify the School or Field you are interested in.For example, you can ask:'Courses in the School of Engineering • 'Courses in Computer Science • 'What Business courses do you have?'"
+      ]
+    },
+    {
+      "tag": "engineering_leadership_departments",
+      "patterns": [
+        "who is the dean of engineering",
+        "engineering dean",
+        "who leads the school of engineering",
+        "departments in engineering",
+        "who is the head of civil engineering",
+        "HOD mechanical engineering",
+        "structure of the school of engineering",
+        "engineering departments list"
+      ],
+      "responses": [
+        "The School of Engineering is led by Dean Dr. Njenga Mburu. Departments include Chemical Engineering (HoD Dr. Kimutai Tewo), Technology Education (HoD Dr. Addero Wilson Ogot), Civil Engineering (HoD Dr. Kevin Achieng), Electrical & Electronic Engineering (HoD Dr. Edwell Tafara Mharakurwa), Mechatronic Engineering (HoD Dr. Titus Murwa Mulembo), Mechanical Engineering (HoD Dr. Mburu Ngugi)."
+      ]
+    },
+    {
+      "tag": "engineering_programs",
+      "patterns": [
+        "engineering undergraduate programs",
+        "engineering courses",
+        "what engineering courses are offered",
+        "list of engineering courses",
+        "what engineering courses are offered",
+        "list of engineering degrees",
+        "does dekut offer civil engineering",
+        "is there mechanical engineering",
+       "bsc mechatronic engineering requirements",
+       "bachelor of education technology",
+       "telecommunication engineering",
+       "electrical engineering courses", 
+       "engineering masters programs",
+        "engineering postgraduate courses",
+        "msc engineering courses",
+        "phd engineering",
+        "engineering masters programs",
+        "msc mechanical engineering",
+        "phd in engineering",
+        "postgraduate engineering courses",
+       "advanced manufacturing masters",
+        "requirements for engineering masters",
+       "msc civil engineering",
+        "postgraduate engineering programs"
+      
+      ],
+      "responses": [
+        "Undergraduate programmes in the School of Engineering include: BSc Electrical & Electronic Engineering, BSc Telecommunication & Information Engineering, BSc Mechatronic Engineering, BSc Mechanical Engineering, BSc Chemical Engineering, BSc Civil Engineering, BEd Technology (Electrical & Electronic), BEd Technology (Mechanical) and BEd Technology (Civil).Postgraduate programmes include M.Sc. in Advanced Manufacturing & Automation Engineering, Machine Tools Design & Manufacturing, Industrial Engineering & Management, Telecommunication Engineering, Mechanical Engineering, Biomedical Engineering, Civil Engineering, and a PhD in Mechanical Engineering. Requirements typically include a relevant BSc with an upper second-class honours or equivalent and, in some cases, relevant work experience."
+      ]
+    },
+ 
+    {
+      "tag": "engineering_entry_requirements",
+      "patterns": [
+        "engineering entry requirements",
+        "requirements for engineering",
+        "how to join engineering",
+        "minimum requirements for engineering courses",
+        "engineering entry requirements",
+       "requirements for engineering",
+        "how to join engineering",
+        "cluster points for engineering",
+         "grade for civil engineering",
+        "maths requirement for engineering",
+         "can I do engineering with C plain",
+        "diploma in engineering requirements",
+        "what subjects do I need for engineering"
+        
+      ],
+      "responses": [
+        "Minimum entry for most engineering undergraduate programmes is a KCSE mean grade of C+ with passes in Physics, Chemistry, English and Kiswahili (or equivalent). Postgraduate programmes include M.Sc. in Advanced Manufacturing & Automation Engineering, Machine Tools Design & Manufacturing, Industrial Engineering & Management, Telecommunication Engineering, Mechanical Engineering, Biomedical Engineering, Civil Engineering, and a PhD in Mechanical Engineering. Requirements typically include a relevant BSc with an upper second-class honours or equivalent and, in some cases, relevant work experience."
+      ]
+    },
+ 
+    {
+      "tag": "cs_leadership_departments",
+      "patterns": [
+        "who is the dean of computer science",
+        "computer science dean",
+        "who leads cs school",
+        "cs departments",
+        "departments in computer science",
+        "who is the dean of computer science",
+    "computer science dean",
+    "who leads cs school",
+    "cs departments",
+    "departments in computer science",
+    "head of department it",
+    "HOD computer science",
+    "structure of cs school"
+   
+      ],
+      "responses": [
+        "The School of Computer Science & Information Technology is led by Dean Dr. George Musumba with Dr. Kinyua Gikunda as a key departmental lead. The school includes programmes in computer science, information technology and business information technology."
+      ]
+    },
+    {
+      "tag": "cs_programs",
+      "patterns": [
+        "computer science courses",
+        "what computer science programmes do you offer",
+        "bsc computer science list",
+        "undergraduate it courses",
+        "it courses at dekut",
+        "IT courses at dekut",
+        "computer science courses",
+    "what computer science programmes do you offer",
+    "bsc computer science list",
+    "undergraduate it courses",
+    "software engineering degree",
+    "does dekut offer cyber security",
+    "bachelor of business information technology",
+        "bbit courses at dekut",
+        "computer science masters",
+        "msc computer science",
+        "postgraduate it courses",
+        "phd computer science",
+        "masters in data science",
+    "msc computer science",
+    "postgraduate it courses",
+    "phd computer science",
+    "masters in data science",
+    "msc information technology",
+    "masters in cyber security",
+    "requirements for masters in cs",
+    "phd in information technology"
+      ],
+      "responses": [
+        "Undergraduate programmes include: BSc Computer Science, BSc Information Technology, and BSc Business Information Technology.and The school offers master's degrees in Computer Science, Cybersecurity and Data Science, as well as PhD opportunities for qualified candidates with a relevant master's degree."
+      ]
+    },
+    {
+      "tag": "cs_requirements",
+      "patterns": [
+        "computer science requirements",
+        "requirements for computer science",
+        "how to join computer science",
+        "computer science requirements",
+    "requirements for computer science",
+    "how to join computer science",
+    "entry requirements for It",
+    "can I do computer science with C plain in math",
+    "grade for bbit",
+    "cluster points for computer science",
+    "minimum grade for IT",
+    "what subjects are needed for computer science",
+        "entry requirements for it"
+      ],
+      "responses": [
+       " Minimum entry requirement for BBIT and IT is a KCSE mean grade of C+ with a C (plain) in Mathematics and English/Kiswahili."
+
+      ]
+    },
+ 
+    {
+      "tag": "science_leadership_departments",
+      "patterns": [
+        "who is the dean of science",
+        "science dean",
+        "science departments",
+        "departments in school of science",
+        "who is the dean of science",
+    "science dean",
+    "science departments",
+    "departments in school of science",
+    "leadership in school of science",
+    "head of chemistry department",
+    "who leads actuarial science",
+    "hod mathematics",
+    "structure of school of science",
+        "leadership in school of science"
+      ],
+      "responses": [
+        "The School of Science is led by Dean Dr. Antony Ngunyi. Departments include Chemistry (HoD Dr. Paul Tanui), Mathematics & Physical Sciences (HoD Dr. Reuben Ndung’u), and Statistics & Actuarial Science (HoD Dr. Cyprian Omari)."
+      ]
+    },
+    {
+      "tag": "science_programs",
+      "patterns": [
+      "science courses",
+    "what courses are offered in school of science",
+    "undergraduate science programmes",
+    "actuarial science",
+    "does dekut offer industrial chemistry",
+    "leather technology",
+    "polymer chemistry",
+    "medical physics",
+    "mathematics and modeling",
+    "bachelor of science courses",
+    "chemistry degrees"
+      ],
+      "responses": [
+        "The school offers a variety of science degrees such as Actuarial Science, Industrial Chemistry, Leather Technology, Polymer Chemistry, Medical Physics and Mathematics & Modeling Processes.Postgraduate programmes include MSc in Leather Technology, MSc in Chemistry, MSc in Industrial Biochemistry, MSc in Laser & Photonic Technology, MSc in Industrial Mathematics, and a PhD in Chemistry. Admission usually requires a relevant bachelor's degree with strong academic performance."
+      ]
+    },
+
+    {
+      "tag": "science_requirements",
+      "patterns": [
+        "science entry requirements",
+        "requirements for science courses",
+        "how to join school of science",
+        "minimum requirements for science degree",
+        "science entry requirements",
+    "requirements for science courses",
+    "how to join school of science",
+    "cluster points for actuarial science",
+    "grade for industrial chemistry",
+    "maths requirement for actuarial",
+    "can I do science with C plain"
+   
+      ],
+      "responses": [
+        "Most science degree programmes require a KCSE mean grade of C+ with strong performance in Mathematics, English/Kiswahili and relevant science subjects. "
+      ]
+    },
+
+    {
+      "tag": "business_leadership",
+      "patterns": [
+        "who is the dean of business",
+        "business dean",
+        "leader of school of business",
+        "who is the dean of business",
+    "business dean",
+    "leader of school of business",
+    "business school leadership",
+    "hod commerce",
+    "who heads business administration",
+    "departments in business school",
+    "structure of school of business",
+        "business school leadership"
+      ],
+      "responses": [
+        "The School of Business, Management & Economics is led by Dean Dr. Anne Sang. The school oversees undergraduate, diploma and postgraduate programmes in business-related disciplines."
+      ]
+    },
+    {
+      "tag": "business_programs",
+      "patterns": [
+        "business courses",
+    "undergraduate business programs",
+    "degree programs in business",
+    "bachelor of commerce",
+    "bcom options",
+    "business administration degree",
+    "bba",
+    "purchasing and supplies management",
+    "procurement course",
+    "does dekut offer accounting",
+    "marketing degree",
+    "business masters",
+    "postgraduate business courses",
+    "mba",
+    "phd business",
+    "phd business administration",
+"masters in supply chain management",
+"msc economics",
+"project management masters",
+"business analytics degree",
+"entrepreneurship masters"
+      ],
+      "responses": [
+        "Business undergraduate options include Commerce, Business Administration and Purchasing & Supplies Management, plus diploma pathways for progression.Postgraduate programmes include: MBA, MSc Business Analytics, MSc Supply Chain Management, MSc Project Management, MSc Economics, MSc Innovation & Entrepreneurship Management, Postgraduate Diploma in Project Management, and PhD programmes in Business Administration & Management and Operations & Supply Chain Management."
+      ]
+    },
+ 
+    {
+      "tag": "business_requirements",
+      "patterns": [
+        "business entry requirements",
+        "requirements for business courses",
+        "minimum requirements for commerce",
+        "how to join business school",
+        "business entry requirements",
+    "requirements for business courses",
+    "minimum requirements for commerce",
+    "how to join business school",
+    "maths grade for bcom",
+    "can I do commerce with C- in math",
+    "entry grade for purchasing and supplies",
+    "requirements for diploma in business",
+    "do I need physics for business"
+      ],
+      "responses": [
+        "Degree programmes generally require a KCSE mean grade of C+ with good performance in Mathematics and English/Kiswahili, or a recognized KNEC diploma. Master's and PhD requirements vary based on academic background and experience."
+      ]
+    },
+
+    {
+      "tag": "nursing_leadership",
+      "patterns": [
+        "who is the dean of nursing",
+        "nursing dean",
+        "who is the dean of nursing",
+        "leader of school of nursing",
+        "head of nursing department",
+        "who is in charge of nursing school",
+        "nursing school administration",
+        "leader of school of nursing"
+      ],
+      "responses": [
+        "The School of Nursing is led by Dean Dr. Florence Mbuthia."
+      ]
+    },
+    {
+      "tag": "nursing_programs",
+      "patterns": [
+        "nursing courses",
+        "bsc nursing",
+        "nursing programs at dekut",
+        "nursing undergraduate programs",
+        "Do you offer nursing?",
+    "Tell me about the nursing course",
+    "What nursing programs are available?",
+    "BSc Nursing details",
+    "I want to study nursing",
+    "Does DeKUT have a nursing school?",
+    "Direct entry nursing options",
+    "Nursing upgrading program"
+      ],
+      "responses": [
+        "The School of Nursing offers: Bachelor of Science in Nursing (Direct Entry) and Bachelor of Science in Nursing (Upgrading) for registered nurses. Requirements differ depending on the track."
+      ]
+    },
+    {
+      "tag": "nursing_requirements",
+      "patterns": [
+        "nursing entry requirements",
+        "requirements for nursing",
+        "how to join nursing programme",
+        "What are the requirements for nursing?",
+    "Minimum grade for nursing",
+    "Do I qualify for BSc Nursing?",
+    "Direct entry nursing grades",
+    "Upgrading nursing requirements",
+    "What subjects do I need for nursing?",
+    "How many points for nursing?"
+      ],
+      "responses": [
+        "Direct-entry BSc Nursing requires a KCSE mean grade of C+ with a C+ in Biology, English/Kiswahili, Mathematics/Physics and Chemistry. The upgrading programme requires KRCHN or KRN/KRM/PH, two years of experience and valid NCK licensing."
+      ]
+    },
+
+    {
+      "tag": "graduate_school_leadership",
+      "patterns": [
+        "who is the dean of graduate school",
+        "graduate school dean",
+        "Who is the Dean of the graduate school?",
+    "Who heads the post graduate school?",
+    "Director of graduate studies",
+    "Who is in charge of masters and PhD programs?",
+    "Name of the graduate school dean",
+        "leader of graduate studies"
+      ],
+      "responses": [
+        "The School of Graduate Studies & Research is led by Dean Dr. Douglas Onyancha."
+      ]
+    },
+    {
+      "tag": "criminology_institute",
+      "patterns": [
+        "tell me about criminology institute",
+        "criminology courses dekut",
+        "forensics courses",
+        "BSc Criminology & Security Management ",
+        "MSc Forensics & Security Management",
+        "tell me about criminology institute",
+    "does dekut offer criminology?",
+    "criminology courses dekut",
+    "forensics courses",
+    "I want to study forensics",
+    "BSc Criminology & Security Management",
+    "MSc Forensics & Security Management",
+    "security studies institute",
+    "who is the director of criminology?",
+    "what are the requirements for security management?",
+    "institute of criminology details",
+    "programs in the security institute",
+        "security studies institute"
+      ],
+      "responses": [
+        "In the Institute of Criminology, It offers BSc Criminology & Security Management and MSc Forensics & Security Management. Programmes align with CUE regulations and focus on applied criminology and corporate forensic management."
+      ]
+    },
+
+    {
+      "tag": "iggres_programs",
+      "patterns": [
+        "geomatics courses",
+        "BSc Geomatics Engineering & GIS",
+        "IGGReS courses",
+    "what courses are in the geomatics institute?",
+    "does dekut offer GIS?",
+    "BSc Geomatics Engineering & GIS",
+    "BSc Geospatial Information Science & Remote Sensing",
+    "MSc GIS",
+    "PhD in Geomatics",
+    "remote sensing degree",
+    "geospatial science requirements",
+    "list of IGGReS programs",
+        "BSc Geospatial Information Science & Remote Sensing"
+      ],
+      "responses": [
+        "The Institute of Geomatics, GIS & Remote Sensing (IGGReS),  offers BSc Geomatics Engineering & GIS, and BSc Geospatial Information Science & Remote Sensing. It also offers postgraduate programmes including MSc GIS & Remote Sensing and a PhD in Geomatics."
+      ]
+    },
+    {
+      "tag": "iggres_requirements",
+      "patterns": [
+        "iggres entry requirements",
+        "geomatics requirements",
+        "gis requirements",
+        "iggres entry requirements",
+    "geomatics requirements",
+    "gis requirements",
+    "how to join geomatics",
+    "what grade do I need for geomatics engineering?",
+    "entry grade for GIS and remote sensing",
+    "qualifications for land surveying",
+    "diploma requirements for geomatics",
+    "can I join with a diploma in land surveying?",
+    "cluster subjects for geomatics",
+        "how to join geomatics"
+      ],
+      "responses": [
+        "KCSE applicants need a C+ in Mathematics and at least a C+ in two subjects such as Physics, Chemistry, Geography, Biology or Physical Sciences. Diploma applicants require a credit in a relevant KNEC diploma such as land surveying or geomatics."
+      ]
+    },
+
+    {
+      "tag": "itohm_programs",
+      "patterns": [
+        "tourism programs",
+        "hospitality courses",
+        "degree in tourism",
+        "bachelor of tourism",
+        "tourism programs",
+    "hospitality courses",
+    "what courses are offered at IToHM?",
+    "BSc Sustainable Tourism & Hospitality Management",
+    "Diploma in Sustainable Tourism",
+    "Certificate in Institutional Accommodation",
+    "catering operations certificate",
+    "mountaineering course",
+    "does dekut offer short courses in tourism?",
+    "outdoor expeditions guiding",
+        "tourism courses offered"
+      ],
+      "responses": [
+        "IToHM offers: BSc Sustainable Tourism & Hospitality Management, Diploma in Sustainable Tourism & Hospitality Management, Certificate in Institutional Accommodation & Catering Operations, and several short courses including Mountaineering & Outdoor Expeditions Guiding."
+      ]
+    },
+    {
+      "tag": "itohm_requirements",
+      "patterns": [
+        "tourism requirements",
+        "hospitality requirements",
+        "entry requirements for tourism",
+        "how to join itohm",
+        "tourism requirements",
+    "hospitality requirements",
+    "entry requirements for tourism",
+    "how to join itohm",
+    "what grade do I need for tourism?",
+    "qualifications for hospitality management",
+    "diploma in tourism entry grade",
+    "certificate in catering requirements",
+    "can I join with a C minus?",
+    "IToHM admission criteria"
+      ],
+      "responses": [
+        "For BSc Sustainable Tourism & Hospitality Management, applicants need a C+ in KCSE or a relevant diploma. Diploma entry requires a C- with relevant subjects. Certificate courses require a minimum of D or D- depending on specialization."
+      ]
+    },
+    {
+      "tag": "ifbt_ledership",
+      "patterns": [
+        "tell me about ifbt",
+        "food science institute",
+        "who is the director of ifbt?",
+    "who leads the food science institute?",
+    "management of bioresources institute",
+    "head of ifbt",
+    "administration of the food science institute"
+      ],
+      "responses": [
+        "The Institute of Food & Bioresources Technology (IFBT), led by Director Dr. Richard Koskei."
+      
+      ]
+    },
+    {
+      "tag": "ifbt_programs",
+      "patterns": [
+        "food science programs",
+        "nutrition programs",
+        "courses in ifbt",
+        "BSc Food Science & Technology",
+        "BSc Nutrition & Dietetics",
+        "what courses are offered at IFBT?",
+    "food science degrees",
+    "nutrition programs",
+    "BSc Food Science & Technology",
+    "BSc Nutrition & Dietetics",
+    "diploma in coffee",
+    "coffee technology courses",
+    "cupping certification",
+    "MSc Food Science",
+    "PhD in Food Science",
+        "coffee technology courses"
+      ],
+      "responses": [
+        "Programmes include: BSc Food Science & Technology, BSc Nutrition & Dietetics, Diploma in Coffee Technology & Cupping, Certificate in Coffee Technology, MSc Food Science & Technology, and PhD in Food Science & Technology."
+      ]
+    },
+    {
+      "tag": "ifbt_requirements",
+      "patterns": [
+    "food science requirements",
+    "nutrition course requirements",
+    "ifbt entry requirements",
+    "what grade do I need for food science?",
+    "cluster subjects for nutrition",
+    "diploma in coffee technology requirements",
+    "can I join ifbt with a C minus?",
+    "mathematics requirement for food science",
+    "certificate in coffee technology entry grade",
+    "what are the qualifications for ifbt",
+    "do I qualify for a degree in food science",
+    "prerequisites for food technology",
+    "minimum grade for diploma in nutrition",
+    "is chemistry mandatory for food science?"
+      ],
+      "responses": [
+        "The general entry requirements for IFBT programmes include a KCSE mean grade of C+ with strong passes in Chemistry, Biology, and Mathematics/Physics."
+
+      ]
+    },
+    {
+      "tag": "itps_leadership",
+      "patterns": [
+        "tell me about itps",
+        "technical institute dekut",      
+        "what is itps",
+    "tell me about itps",
+    "technical institute at dekut",
+    "does dekut have a tvet section",
+    "who is the director of itps",
+    "overview of professional studies",
+    "itps location and details",
+    "what does itps stand for",
+    "is itps part of dekut"
+      ],
+      "responses": [
+        "The Institute of Technical & Professional Studies (ITPS), led by Director Dr. Erastus Karoki, offers diplomas, certificates and professional courses across business, engineering, tourism, IT, fashion, building technology, welding and more."
+      ]
+    },
+    {
+      "tag": "itps_programs",
+      "patterns": [
+        "diploma programs",
+        "diploma courses dekut",
+        "what diplomas are offered",
+        "list of diploma courses",
+        "diploma programs at itps",
+    "diploma courses dekut",
+    "what diplomas are offered",
+    "list of diploma courses",
+    "does itps offer diploma in IT",
+    "technical diplomas dekut",
+    "diploma in fashion design",
+    "diploma in electrical engineering",
+    "courses offered at itps",
+    "certificate programs",
+    "certificate courses dekut",
+    "what certificates are offered",
+    "certificates available",
+    "certificate programs",
+"certificate courses dekut",
+"what certificates are offered",
+"certificates available at itps",
+"short courses at dekut",
+"certificate in electrical engineering",
+"certificate in fashion design",
+"mountaineering course",
+"coffee technology certificate",
+"german language course",
+"welding certificate"
+      ],
+      "responses": [
+        "ITPS offers diplomas in: Business Admin, Purchasing & Supplies Management, Information Technology, Security Management, Coffee Technology & Cupping, Food Science Technology, Tourism & Hospitality, Electrical & Electronics Engineering (Power), Fashion Design, Furniture Technology, Building Technology, Metal Work & Welding.and  Certificate programmes include: Electrical & Electronics Engineering, Fashion Design, Furniture Technology, Building Technology, Welding & Design, German Language, IT, Coffee Technology, and Mountaineering & Outdoor Expeditions Guiding."
+      ]
+    },
+
+    {
+      "tag": "itps_professional_courses",
+      "patterns": [
+        "professional courses",
+        "aps k",
+        "cpsp k",
+        "professional training dekut",
+        "professional courses",
+    "short courses for professionals",
+    "aps-k course",
+    "cpsp-k requirements",
+    "certified procurement and supply professional",
+    "associate in procurement and supply",
+    "atd level 1",
+    "accounting technicians diploma",
+    "siemens certification",
+    "smscp level 1"
+  
+   
+      ],
+      "responses": [
+        "Professional courses include APS-K, CPSP-K, ATD Level I, Siemens Mechatronic Systems Certification (SMSCP Level 1), and advanced training in procurement and accounting."
+      ]
+    },
+    {
+      "tag": "getri_overview",
+      "patterns": [
+        "tell me about getri",
+        "geothermal institute",
+        "who is the director of getri",
+    "who leads the geothermal institute",
+    "management of getri",
+    "head of geothermal training",
+    "who runs the geothermal program"
+      ],
+      "responses": [
+        "The Geothermal Training & Research Institute (GeTRI), led by Director Dr. Patrick Chege Kariuki, offers advanced training in geothermal energy exploration, drilling, geoscience analysis and geothermal engineering."
+      ]
+    },
+    {
+      "tag": "getri_programs",
+      "patterns": [
+        "geothermal programs",
+        "msc geothermal",
+        "geothermal postgraduate courses",
+        "geothermal programs",
+    "msc in geothermal energy technology",
+    "postgraduate diploma in geothermal",
+    "pgd geothermal dekut",
+    "bsc geology",
+    "geology degree courses",
+    "geothermal postgraduate courses",
+    "masters courses at getri",
+    "undergraduate geology",
+    "earth science degrees dekut",
+        "BSc Geology"
+      ],
+      "responses": [
+        "Programmes include: MSc Geothermal Energy Technology, Postgraduate Diploma in Geothermal Energy, and BSc Geology. These programmes cover earth sciences, engineering and geothermal exploration."
+      ]
+    },
+    {
+      "tag": "getri_requirements",
+      "patterns": [
+        "geothermal requirements",
+        "msc geothermal requirements",
+        "geothermal requirements",
+    "msc geothermal entry requirements",
+    "geology entry grade",
+    "what grade do I need for bsc geology",
+    "qualifications for masters in geothermal energy",
+    "cluster subjects for geology",
+    "can I do msc geothermal with a second class lower",
+    "is work experience required for msc geothermal",
+    "prerequisites for geology degree",
+        "geology entry requirements"
+      ],
+      "responses": [
+        "Here are the specific entry requirements for GeTRI programs,MSc Geothermal Energy Technology requirements include a relevant BSc in geology with at least Second Class Upper or Second Class Lower with experience. BSc Geology requires a C+ in KCSE with strong grades in Mathematics and two science subjects."
+      ]
+    },
+    {
+      "tag": "general_studies_overview",
+      "patterns": [
+        "tell me about institute of general studies",
+        "general studies dekut",
+        "tell me about institute of general studies",
+    "general studies dekut",
+    "what is igs",
+    "who is the director of general studies",
+    "university common units",
+    "critical thinking unit",
+        "common units dekut"
+      ],
+      "responses": [
+        "The Institute of General Studies, led by Director Prof. Theuri Matthew Mwangi, oversees university-wide common units such as Communication Skills, Business English, Philosophy, Critical Thinking, Development Studies and Gender & Development."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "appreciate",
+        "thanks a lot",
+        "thank you so much"
+      ],
+      "responses": [
+        "You're welcome! 😊 If you need more details about any school or programme, feel free to ask.",
+        "Happy to help! Let me know if you'd like information on admissions, programmes or contacts."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "unknown question",
+        "random",
+        "i don't understand",
+        "repeat please"
+      ],
+      "responses": [
+        "I’m not fully sure about that. Could you rephrase your question or specify the programme or school you're asking about?",
+        "I might not have that information yet. Please try asking in another way or specify the topic more clearly."
+      ]
+    }
+  ]
+}

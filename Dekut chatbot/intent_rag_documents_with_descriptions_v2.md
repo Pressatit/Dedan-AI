@@ -1,0 +1,850 @@
+# Intent RAG Embedding Documents With Improved Descriptions
+
+Cleaned routing document derived from intents json responses removed
+punctuation removed and optimized for semantic retrieval
+
+## INTENT greeting
+
+TAG greeting
+
+DESCRIPTION this intent covers user questions related to greeting at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS hi hello hey good morning good afternoon good evening is anyone
+there are you there hiya how are you
+
+## INTENT goodbye
+
+TAG goodbye
+
+DESCRIPTION this intent covers user questions related to goodbye at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS bye goodbye see you see you later im leaving talk to you later
+ttyl cya
+
+## INTENT about_university
+
+TAG about_university
+
+DESCRIPTION this intent covers user questions related to about
+university at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS tell me about the university what is dedan kimathi university
+tell me about dekut information on dedan kimathi university of
+technology what is dekut about dkut about dedan kimathi what is dedan
+kimathi university of technology
+
+## INTENT history_legacy
+
+TAG history_legacy
+
+DESCRIPTION this intent covers user questions related to history legacy
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS history of dekut when was dekut started when was dekut founded
+university background what is the history of dedan kimathi university
+how did dedan kimathi university start tell me about the origins of
+dekut kimathi institute of technology
+
+## INTENT location
+
+TAG location
+
+DESCRIPTION this intent covers user questions related to location at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS where is dekut where is dedan kimathi located location of dekut
+where is the university located address of dedan kimathi university
+address of dkut where is dekut main campus how far is dekut from nyeri
+location of university
+
+## INTENT contacts
+
+TAG contacts
+
+DESCRIPTION this intent covers user questions related to contacts at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS what is the phone number contact number how can i contact the
+university dekut phone university contact email for dekut dedan kimathi
+university phone number admissions contact
+
+## INTENT office_hours
+
+TAG office_hours
+
+DESCRIPTION this intent covers user questions related to office hours at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS what are the office hours when is the university open working
+hours hours of operation when are you open what time do you close are
+you open on weekends can i come in on saturday what time does the office
+open office timings
+
+## INTENT school vc
+
+TAG school vc
+
+DESCRIPTION this intent covers user questions related to school vc at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS who is the vice chancellor who is the vc who is the
+vicechancellor of this university tell me about the vc name of the vice
+chancellor current vc of the school who heads this university who is the
+university vc vice chancellor details who is the chancellor leader of
+this college who runs this university
+
+## INTENT contact_schoolofengineering
+
+TAG contact_schoolofengineering
+
+DESCRIPTION this intent covers user questions related to contact
+schoolofengineering at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS contact details for school of engineering email for school of
+engineering dekut school of engineering contacts give me the phone
+number for the school of engineering what is the email for the
+engineering department
+
+## INTENT contact_schoolofbusiness
+
+TAG contact_schoolofbusiness
+
+DESCRIPTION this intent covers user questions related to contact
+schoolofbusiness at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS contact details for school of business email for school of
+business dekut school of business contacts give me the phone number for
+the school of business what is the email for the engineering department
+
+## INTENT contact_schoolofscience
+
+TAG contact_schoolofscience
+
+DESCRIPTION this intent covers user questions related to contact
+schoolofscience at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS contact details for school of science email for school of
+science dekut school of science contacts give me the phone number for
+the school of science what is the email for the science department
+
+## INTENT contact_schoolofnursing
+
+TAG contact_schoolofnursing
+
+DESCRIPTION this intent covers user questions related to contact
+schoolofnursing at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS contact details for school of nursing email for school of
+nursing dekut school of nursing contacts give me the phone number for
+the school of nursing what is the email for the nursing department
+
+## INTENT contact_schoolofscomputerscience
+
+TAG contact_schoolofscomputerscience
+
+DESCRIPTION this intent covers user questions related to contact
+schoolofscomputerscience at dedan kimathi university of technology
+including general inquiries specific details and eligibility information
+
+PATTERNS contact details for school of computer science email for school
+of computer science dekut school of computer science and it contacts
+give me the phone number for the school of computer science what is the
+email for the computer science and it department
+
+## INTENT contact_schoolofgraduatestudies
+
+TAG contact_schoolofgraduatestudies
+
+DESCRIPTION this intent covers user questions related to contact
+schoolofgraduatestudies at dedan kimathi university of technology
+including general inquiries specific details and eligibility information
+
+PATTERNS contact details for school of graduate studies email for school
+of graduate studies dekut school of computer graduate studies contacts
+give me the phone number for the school of graduate studies what is the
+email for the graduate studies department
+
+## INTENT contact_instituteoftechnicalstudies
+
+TAG contact_instituteoftechnicalstudies
+
+DESCRIPTION this intent covers user questions related to contact
+instituteoftechnicalstudies at dedan kimathi university of technology
+including general inquiries specific details and eligibility information
+
+PATTERNS contact details for insitute of technical studies email for
+itps institute of techncal and professional studies contact give me the
+phone number for the itps what is the email for the itps department
+
+## INTENT contact_instituteofgematics
+
+TAG contact_instituteofgematics
+
+DESCRIPTION this intent covers user questions related to contact
+instituteofgematics at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS contact details for insitute of geomatics email for gis
+institute of geomatics and remote sensing contact give me the phone
+number for the iggres what is the email for the institute of
+geomaticsgis and remote sensing department
+
+## INTENT contact_instituteoftourism
+
+TAG contact_instituteoftourism
+
+DESCRIPTION this intent covers user questions related to contact
+instituteoftourism at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS contact details for insitute of tourism and hospitality
+management email for itohm institute of tourism and hospitality
+management contact give me the phone number for the itohm what is the
+email for the institute of tourism and hospitality management department
+
+## INTENT contact_instituteoffood
+
+TAG contact_instituteoffood
+
+DESCRIPTION this intent covers user questions related to contact
+instituteoffood at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS contact details for insitute of food and bioresource technology
+email for ifbt institute of food and bioresource technology contact give
+me the phone number for the ifbt what is the email for the institute of
+food and bioresource technology department
+
+## INTENT contact_geothermalinstitute
+
+TAG contact_geothermalinstitute
+
+DESCRIPTION this intent covers user questions related to contact
+geothermalinstitute at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS contact details for geothermal institute email for getri
+geothermal energy training and research institute contact give me the
+phone number for the getri what is the email for the geothermal energy
+training and research institute department
+
+## INTENT admissions_general
+
+TAG admissions_general
+
+DESCRIPTION this intent covers user questions related to admissions
+general at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS how do i apply admission requirements admissions process entry
+requirements how to apply to dekut how much is the application fee apply
+as a self sponsored student kuccps application online application link
+
+## INTENT fees_general
+
+TAG fees_general
+
+DESCRIPTION this intent covers user questions related to fees general at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS fee structure how much is tuition fees for students tuition
+fees how much does it cost fee details how to pay fees
+
+## INTENT financial_aid
+
+TAG financial_aid
+
+DESCRIPTION this intent covers user questions related to financial aid
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS financial aid bursaries work study defao financial aid help how
+to apply for bursary is work study available i cannot pay my fees
+scholarship opportunities apply for work study fee assistance help with
+school fees
+
+## INTENT accommodation
+
+TAG accommodation
+
+DESCRIPTION this intent covers user questions related to accommodation
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS is there hostel do you have accommodation campus accommodation
+student hostels where do students stay oncampus housing external hostels
+
+## INTENT student_life
+
+TAG student_life
+
+DESCRIPTION this intent covers user questions related to student life at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS student life what sports are available clubs and societies
+dekutso do you have a gym football basketball indoor games martial arts
+athletics entertainment climb to educate
+
+## INTENT help_how_to_use
+
+TAG help_how_to_use
+
+DESCRIPTION this intent covers user questions related to help how to use
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS help how do i use this what can you do how can you help what do
+you know guide how do i use this bot start what can you help me with
+
+## INTENT unknown
+
+TAG unknown
+
+DESCRIPTION this intent covers user questions related to unknown at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS i dont know what to ask random question can you answer anything
+not sure
+
+## INTENT creator
+
+TAG creator
+
+DESCRIPTION this intent covers user questions related to creator at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS who created you who developed you who made you your developer
+developer information
+
+## INTENT inquiry_schools_and_institutes
+
+TAG inquiry_schools_and_institutes
+
+DESCRIPTION this intent covers user questions related to inquiry schools
+and institutes at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS list of schools and institutes what faculties are in kimathi
+departments in dekut does dekut have a science school does dekut have a
+school of engineering does dekut have a school of computer science it
+does dekut have a school of business does dekut have a school of science
+does dekut have a school of graduate studies list of institutes is there
+a school of medicine faculties available
+
+## INTENT inquiry_courses_general
+
+TAG inquiry_courses_general
+
+DESCRIPTION this intent covers user questions related to inquiry courses
+general at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS what courses do you offer list of programmes courses offered at
+dekut degrees available diploma courses which courses are available
+academic programmes what can i study here do you offer masters degrees
+certificate courses
+
+## INTENT engineering_leadership_departments
+
+TAG engineering_leadership_departments
+
+DESCRIPTION this intent covers user questions related to engineering
+leadership departments at dedan kimathi university of technology
+including general inquiries specific details and eligibility information
+
+PATTERNS who is the dean of engineering engineering dean who leads the
+school of engineering departments in engineering who is the head of
+civil engineering hod mechanical engineering structure of the school of
+engineering engineering departments list
+
+## INTENT engineering_programs
+
+TAG engineering_programs
+
+DESCRIPTION this intent covers user questions related to engineering
+programs at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS engineering undergraduate programs engineering courses what
+engineering courses are offered list of engineering courses what
+engineering courses are offered list of engineering degrees does dekut
+offer civil engineering is there mechanical engineering bsc mechatronic
+engineering requirements bachelor of education technology
+telecommunication engineering electrical engineering courses engineering
+masters programs engineering postgraduate courses msc engineering
+courses phd engineering engineering masters programs msc mechanical
+engineering phd in engineering postgraduate engineering courses advanced
+manufacturing masters requirements for engineering masters msc civil
+engineering postgraduate engineering programs
+
+## INTENT engineering_entry_requirements
+
+TAG engineering_entry_requirements
+
+DESCRIPTION this intent covers user questions related to engineering
+entry requirements at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS engineering entry requirements requirements for engineering how
+to join engineering minimum requirements for engineering courses
+engineering entry requirements requirements for engineering how to join
+engineering cluster points for engineering grade for civil engineering
+maths requirement for engineering can i do engineering with c plain
+diploma in engineering requirements what subjects do i need for
+engineering
+
+## INTENT cs_leadership_departments
+
+TAG cs_leadership_departments
+
+DESCRIPTION this intent covers user questions related to computer
+science leadership departments at dedan kimathi university of technology
+including general inquiries specific details and eligibility information
+
+PATTERNS who is the dean of computer science computer science dean who
+leads computer science school computer science departments departments
+in computer science who is the dean of computer science computer science
+dean who leads computer science school computer science departments
+departments in computer science head of department it hod computer
+science structure of computer science school
+
+## INTENT cs_programs
+
+TAG cs_programs
+
+DESCRIPTION this intent covers user questions related to computer
+science programs at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS computer science courses what computer science programmes do
+you offer bsc computer science list undergraduate it courses it courses
+at dekut it courses at dekut computer science courses what computer
+science programmes do you offer bsc computer science list undergraduate
+it courses software engineering degree does dekut offer cyber security
+bachelor of business information technology bbit courses at dekut
+computer science masters msc computer science postgraduate it courses
+phd computer science masters in data science msc computer science
+postgraduate it courses phd computer science masters in data science msc
+information technology masters in cyber security requirements for
+masters in computer science phd in information technology
+
+## INTENT cs_requirements
+
+TAG cs_requirements
+
+DESCRIPTION this intent covers user questions related to computer
+science requirements at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS computer science requirements requirements for computer science
+how to join computer science computer science requirements requirements
+for computer science how to join computer science entry requirements for
+it can i do computer science with c plain in math grade for bbit cluster
+points for computer science minimum grade for it what subjects are
+needed for computer science entry requirements for it
+
+## INTENT science_leadership_departments
+
+TAG science_leadership_departments
+
+DESCRIPTION this intent covers user questions related to science
+leadership departments at dedan kimathi university of technology
+including general inquiries specific details and eligibility information
+
+PATTERNS who is the dean of science science dean science departments
+departments in school of science who is the dean of science science dean
+science departments departments in school of science leadership in
+school of science head of chemistry department who leads actuarial
+science hod mathematics structure of school of science leadership in
+school of science
+
+## INTENT science_programs
+
+TAG science_programs
+
+DESCRIPTION this intent covers user questions related to science
+programs at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS science courses what courses are offered in school of science
+undergraduate science programmes actuarial science does dekut offer
+industrial chemistry leather technology polymer chemistry medical
+physics mathematics and modeling bachelor of science courses chemistry
+degrees
+
+## INTENT science_requirements
+
+TAG science_requirements
+
+DESCRIPTION this intent covers user questions related to science
+requirements at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS science entry requirements requirements for science courses how
+to join school of science minimum requirements for science degree
+science entry requirements requirements for science courses how to join
+school of science cluster points for actuarial science grade for
+industrial chemistry maths requirement for actuarial can i do science
+with c plain
+
+## INTENT business_leadership
+
+TAG business_leadership
+
+DESCRIPTION this intent covers user questions related to business
+leadership at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS who is the dean of business business dean leader of school of
+business who is the dean of business business dean leader of school of
+business business school leadership hod commerce who heads business
+administration departments in business school structure of school of
+business business school leadership
+
+## INTENT business_programs
+
+TAG business_programs
+
+DESCRIPTION this intent covers user questions related to business
+programs at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS business courses undergraduate business programs degree
+programs in business bachelor of commerce bcom options business
+administration degree bba purchasing and supplies management procurement
+course does dekut offer accounting marketing degree business masters
+postgraduate business courses mba phd business phd business
+administration masters in supply chain management msc economics project
+management masters business analytics degree entrepreneurship masters
+
+## INTENT business_requirements
+
+TAG business_requirements
+
+DESCRIPTION this intent covers user questions related to business
+requirements at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS business entry requirements requirements for business courses
+minimum requirements for commerce how to join business school business
+entry requirements requirements for business courses minimum
+requirements for commerce how to join business school maths grade for
+bcom can i do commerce with c in math entry grade for purchasing and
+supplies requirements for diploma in business do i need physics for
+business
+
+## INTENT nursing_leadership
+
+TAG nursing_leadership
+
+DESCRIPTION this intent covers user questions related to nursing
+leadership at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS who is the dean of nursing nursing dean who is the dean of
+nursing leader of school of nursing head of nursing department who is in
+charge of nursing school nursing school administration leader of school
+of nursing
+
+## INTENT nursing_programs
+
+TAG nursing_programs
+
+DESCRIPTION this intent covers user questions related to nursing
+programs at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS nursing courses bsc nursing nursing programs at dekut nursing
+undergraduate programs do you offer nursing tell me about the nursing
+course what nursing programs are available bsc nursing details i want to
+study nursing does dekut have a nursing school direct entry nursing
+options nursing upgrading program
+
+## INTENT nursing_requirements
+
+TAG nursing_requirements
+
+DESCRIPTION this intent covers user questions related to nursing
+requirements at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS nursing entry requirements requirements for nursing how to join
+nursing programme what are the requirements for nursing minimum grade
+for nursing do i qualify for bsc nursing direct entry nursing grades
+upgrading nursing requirements what subjects do i need for nursing how
+many points for nursing
+
+## INTENT graduate_school_leadership
+
+TAG graduate_school_leadership
+
+DESCRIPTION this intent covers user questions related to graduate school
+leadership at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS who is the dean of graduate school graduate school dean who is
+the dean of the graduate school who heads the post graduate school
+director of graduate studies who is in charge of masters and phd
+programs name of the graduate school dean leader of graduate studies
+
+## INTENT criminology_institute
+
+TAG criminology_institute
+
+DESCRIPTION this intent covers user questions related to criminology
+institute at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS tell me about criminology institute criminology courses dekut
+forensics courses bsc criminology security management msc forensics
+security management tell me about criminology institute does dekut offer
+criminology criminology courses dekut forensics courses i want to study
+forensics bsc criminology security management msc forensics security
+management security studies institute who is the director of criminology
+what are the requirements for security management institute of
+criminology details programs in the security institute security studies
+institute
+
+## INTENT iggres_programs
+
+TAG iggres_programs
+
+DESCRIPTION this intent covers user questions related to iggres programs
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS geomatics courses bsc geomatics engineering gis iggres courses
+what courses are in the geomatics institute does dekut offer gis bsc
+geomatics engineering gis bsc geospatial information science remote
+sensing msc gis phd in geomatics remote sensing degree geospatial
+science requirements list of iggres programs bsc geospatial information
+science remote sensing
+
+## INTENT iggres_requirements
+
+TAG iggres_requirements
+
+DESCRIPTION this intent covers user questions related to iggres
+requirements at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS iggres entry requirements geomatics requirements gis
+requirements iggres entry requirements geomatics requirements gis
+requirements how to join geomatics what grade do i need for geomatics
+engineering entry grade for gis and remote sensing qualifications for
+land surveying diploma requirements for geomatics can i join with a
+diploma in land surveying cluster subjects for geomatics how to join
+geomatics
+
+## INTENT itohm_programs
+
+TAG itohm_programs
+
+DESCRIPTION this intent covers user questions related to itohm programs
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS tourism programs hospitality courses degree in tourism bachelor
+of tourism tourism programs hospitality courses what courses are offered
+at itohm bsc sustainable tourism hospitality management diploma in
+sustainable tourism certificate in institutional accommodation catering
+operations certificate mountaineering course does dekut offer short
+courses in tourism outdoor expeditions guiding tourism courses offered
+
+## INTENT itohm_requirements
+
+TAG itohm_requirements
+
+DESCRIPTION this intent covers user questions related to itohm
+requirements at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS tourism requirements hospitality requirements entry
+requirements for tourism how to join itohm tourism requirements
+hospitality requirements entry requirements for tourism how to join
+itohm what grade do i need for tourism qualifications for hospitality
+management diploma in tourism entry grade certificate in catering
+requirements can i join with a c minus itohm admission criteria
+
+## INTENT ifbt_ledership
+
+TAG ifbt_ledership
+
+DESCRIPTION this intent covers user questions related to ifbt ledership
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS tell me about ifbt food science institute who is the director
+of ifbt who leads the food science institute management of bioresources
+institute head of ifbt administration of the food science institute
+
+## INTENT ifbt_programs
+
+TAG ifbt_programs
+
+DESCRIPTION this intent covers user questions related to ifbt programs
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS food science programs nutrition programs courses in ifbt bsc
+food science technology bsc nutrition dietetics what courses are offered
+at ifbt food science degrees nutrition programs bsc food science
+technology bsc nutrition dietetics diploma in coffee coffee technology
+courses cupping certification msc food science phd in food science
+coffee technology courses
+
+## INTENT ifbt_requirements
+
+TAG ifbt_requirements
+
+DESCRIPTION this intent covers user questions related to ifbt
+requirements at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS food science requirements nutrition course requirements ifbt
+entry requirements what grade do i need for food science cluster
+subjects for nutrition diploma in coffee technology requirements can i
+join ifbt with a c minus mathematics requirement for food science
+certificate in coffee technology entry grade what are the qualifications
+for ifbt do i qualify for a degree in food science prerequisites for
+food technology minimum grade for diploma in nutrition is chemistry
+mandatory for food science
+
+## INTENT itps_leadership
+
+TAG itps_leadership
+
+DESCRIPTION this intent covers user questions related to itps leadership
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS tell me about itps technical institute dekut what is itps tell
+me about itps technical institute at dekut does dekut have a tvet
+section who is the director of itps overview of professional studies
+itps location and details what does itps stand for is itps part of dekut
+
+## INTENT itps_programs
+
+TAG itps_programs
+
+DESCRIPTION this intent covers user questions related to itps programs
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS diploma programs diploma courses dekut what diplomas are
+offered list of diploma courses diploma programs at itps diploma courses
+dekut what diplomas are offered list of diploma courses does itps offer
+diploma in it technical diplomas dekut diploma in fashion design diploma
+in electrical engineering courses offered at itps certificate programs
+certificate courses dekut what certificates are offered certificates
+available certificate programs certificate courses dekut what
+certificates are offered certificates available at itps short courses at
+dekut certificate in electrical engineering certificate in fashion
+design mountaineering course coffee technology certificate german
+language course welding certificate
+
+## INTENT itps_professional_courses
+
+TAG itps_professional_courses
+
+DESCRIPTION this intent covers user questions related to itps
+professional courses at dedan kimathi university of technology including
+general inquiries specific details and eligibility information
+
+PATTERNS professional courses aps k cpsp k professional training dekut
+professional courses short courses for professionals apsk course cpspk
+requirements certified procurement and supply professional associate in
+procurement and supply atd level 1 accounting technicians diploma
+siemens certification smscp level 1
+
+## INTENT getri_overview
+
+TAG getri_overview
+
+DESCRIPTION this intent covers user questions related to getri overview
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS tell me about getri geothermal institute who is the director of
+getri who leads the geothermal institute management of getri head of
+geothermal training who runs the geothermal program
+
+## INTENT getri_programs
+
+TAG getri_programs
+
+DESCRIPTION this intent covers user questions related to getri programs
+at dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS geothermal programs msc geothermal geothermal postgraduate
+courses geothermal programs msc in geothermal energy technology
+postgraduate diploma in geothermal pgd geothermal dekut bsc geology
+geology degree courses geothermal postgraduate courses masters courses
+at getri undergraduate geology earth science degrees dekut bsc geology
+
+## INTENT getri_requirements
+
+TAG getri_requirements
+
+DESCRIPTION this intent covers user questions related to getri
+requirements at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS geothermal requirements msc geothermal requirements geothermal
+requirements msc geothermal entry requirements geology entry grade what
+grade do i need for bsc geology qualifications for masters in geothermal
+energy cluster subjects for geology can i do msc geothermal with a
+second class lower is work experience required for msc geothermal
+prerequisites for geology degree geology entry requirements
+
+## INTENT general_studies_overview
+
+TAG general_studies_overview
+
+DESCRIPTION this intent covers user questions related to general studies
+overview at dedan kimathi university of technology including general
+inquiries specific details and eligibility information
+
+PATTERNS tell me about institute of general studies general studies
+dekut tell me about institute of general studies general studies dekut
+what is igs who is the director of general studies university common
+units critical thinking unit common units dekut
+
+## INTENT thanks
+
+TAG thanks
+
+DESCRIPTION this intent covers user questions related to thanks at dedan
+kimathi university of technology including general inquiries specific
+details and eligibility information
+
+PATTERNS thank you thanks appreciate thanks a lot thank you so much
+
+## INTENT fallback
+
+TAG fallback
+
+DESCRIPTION this intent covers user questions related to fallback at
+dedan kimathi university of technology including general inquiries
+specific details and eligibility information
+
+PATTERNS unknown question random i dont understand repeat please

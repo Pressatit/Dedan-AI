@@ -1,0 +1,34 @@
+# --- Root Files (Spaces escaped with backslash) ---
+Screen\ Recording\ 2025-12-21\ at\ 16.40.36.mov
+Screen\ Recording\ 2026-02-06\ at\ 16.16.23.mov
+random\ item\ classifier.h5
+temp.py
+DEKAIimg0.py
+DEPLOYMENT_CHECKLIST.md
+OUTPUT_EVALUATION.md
+QUICK_START.md
+
+# --- Folders (Relative to DEKAI CODE) ---
+DEKAIimg1/
+web-scraper/
+
+# --- Virtual Environment "Junk" (vDekai is a subfolder) ---
+vDekai/bin/
+vDekai/lib/
+vDekai/include/
+vDekai/share/
+vDekai/etc/
+vDekai/pyvenv.cfg
+
+# --- Nested vDekai and Large Models ---
+vDekai/DEKAI\ BACKEND/vDekai/
+vDekai/DEKAI\ BACKEND/model/DEKAINLP1.5.keras
+vDekai/DEKAI\ BACKEND/model/dekai_final_model/
+
+# --- System & Cache ---
+**/__pycache__/
+*.db
+.DS_Store
+
+#--- Safety ---
+vDekai/DEKAI BACKEND/.env

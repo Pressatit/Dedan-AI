@@ -1,0 +1,11 @@
+import tensorflow_datasets as tfds
+
+# Load COCO captions dataset
+dataset, info = tfds.load("coco_captions", split="train", with_info=True)
+
+print(info)
+for example in dataset.take(1):
+    image = example["image"]
+    captions = example["captions"]
+    print("Image shape:", image.shape)
+    print("Captions:", captions)
