@@ -31,4 +31,5 @@ vDekai/DEKAI\ BACKEND/model/dekai_final_model/
 .DS_Store
 
 #--- Safety ---
+#Uncomment when doing git push 
 vDekai/DEKAI BACKEND/.env
