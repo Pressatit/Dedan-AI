@@ -3,7 +3,7 @@ from PIL import Image
 import io
 
 from oath2 import get_current_user
-from model import dekaiImg0,dekaiIMG1
+from model import dekaiIMG1
 
 router = APIRouter(
     prefix="/vision",

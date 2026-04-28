@@ -1,0 +1,9 @@
+langchain_community
+scikit-learn
+sentence-transformer
+langchain-huggingface
+passlib
+python-multipart
+chromadb
+tensorflow
+bcrypt = 4.3.0

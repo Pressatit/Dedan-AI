@@ -141,61 +141,6 @@ def generate_open_reply(
     )
 
     query = request_data.prompt
-    """
-    # --- 0. Query expansion: Handle common abbreviations and variations ---
-    def expand_query(q: str) -> str:
-        Expand abbreviations and common variations for better retrieval.
-        expanded = q.lower()  # Normalize to lowercase first
-        
-        # Academic title variations (only expand "dean of studies" to just "dean")
-        expanded = expanded.replace("dean of studies", "dean")
-        
-        # Common abbreviations - expand 
-        expanded = expanded.replace(" It ", " information technology ")
-        expanded = expanded.replace(" IT", " information technology,")
-        expanded = expanded.replace(" It.", " information technology.")
-        expanded = expanded.replace(" Itohm", " Institute of Tourism and hospitality management")
-        expanded = expanded.replace(" It ", " information technology ")
-        expanded = expanded.replace(" IT", " information technology,")
-        expanded = expanded.replace(" It.", " information technology.")
-        expanded = expanded.replace(" It?", " information technology?")
-
-        # Handle "and IT" specifically
-        expanded = expanded.replace(" and it ", " and information technology ")
-        expanded = expanded.replace(" & it ", " and information technology ")
-        
-        # CSIT expansion
-        expanded = expanded.replace("csit", "computer science information technology")
-        expanded = expanded.replace("cs & it", "computer science and information technology")
-        expanded = expanded.replace("cs and it", "computer science and information technology")
-        
-        # School/Institute capitalization for better matching
-        expanded = expanded.replace("school of", "school of")
-        expanded = expanded.replace("institute of", "institute of")
-        
-        # For dean queries about specific schools, create a focused query
-        # Extract: "dean" + school name keywords (remove location phrases)
-        if "dean" in expanded:
-            # Remove location phrases that dilute the signal
-            expanded = re.sub(r'\s+in\s+dedan\s+kimathi.*', '', expanded, flags=re.IGNORECASE)
-            expanded = re.sub(r'\s+at\s+dekut.*', '', expanded, flags=re.IGNORECASE)
-            # Extract key terms: dean + school/institute name
-            # Pattern: "dean [of] [the] [school/institute] [of] [school name]"
-            dean_match = re.search(r'dean(?:\s+of)?(?:\s+the)?(?:\s+school|\s+institute)?(?:\s+of)?\s+([^?.,]+)', expanded)
-            if dean_match:
-                school_name = dean_match.group(1).strip()
-                # Remove location phrases from school name too
-                school_name = re.sub(r'\s+in\s+dedan.*', '', school_name, flags=re.IGNORECASE)
-                # Create focused query: "dean [school name]"
-                focused = f"dean {school_name}".strip()
-                # If it's shorter and contains key terms, use it
-                if len(focused) < len(expanded) and ("computer" in focused or "information" in focused):
-                    expanded = focused
-        
-        return expanded
-
-    expanded_query = expand_query(query)
-    """
     search_query = "Represent this sentence for searching relevant passages: " + query
     docs = chroma_db.similarity_search_with_score(search_query, k=7)
 

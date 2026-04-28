@@ -2,12 +2,14 @@ from PIL import Image
 import torch
 import io
 import torch.nn.functional as F
-
+import os
 from transformers import ViTForImageClassification, ViTImageProcessor
 
 device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
 
-local_path = "/Users/marion/Documents/project/DEKAI CODE/vDekai/DEKAI BACKEND/model/dekai_final_model" 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Point to the model folder sitting next to it
+local_path = os.path.join(current_dir, "dekai_final_model")
 
 local_model = ViTForImageClassification.from_pretrained(local_path).to(device)
 local_processor = ViTImageProcessor.from_pretrained(local_path)
