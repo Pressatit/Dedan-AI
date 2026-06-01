@@ -11,7 +11,7 @@ from PIL import Image,UnidentifiedImageError
 
 icon =Image.open("assets/dkut_logo.ico")
 st.set_page_config(page_title="DEKAI", layout="wide", initial_sidebar_state="collapsed",page_icon=icon)
-st.sidebar.image("/Users/marion/Documents/project/DEKAI CODE/assets/dkut_logo.ico", width=350)
+st.sidebar.image("assets/dkut_logo.ico", width=350)
 query_params = st.query_params
 
 if "token" in query_params:
@@ -133,7 +133,7 @@ def send_bug_email(subject, body):
 # Helpers & defaults
 # -------------------------
 # Backend API URL - use environment variable or Streamlit secrets
-BACKEND_API = st.secrets.get("BACKEND_API_URL", "http://127.0.0.1:8000/") 
+BACKEND_API = st.secrets.get("BACKEND_API_URL", "https://pressonit-dekai.hf.space/") 
 MAX_HISTORY_SHOWN = 50
 DEKAI_EMAIL="prestonwachiramwas@gmail.com"
 def init_state():
@@ -236,7 +236,7 @@ def call_image_backend(uploaded_image):
     }
 
     try:
-        response = requests.post("http://127.0.0.1:8000/vision/analyze", files=files)
+        response = requests.post(f"{BACKEND_API}/vision/analyze", files=files)
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
@@ -561,7 +561,7 @@ def render_signin():
     st.markdown("<p style='text-align:right; font-size:13px;'><a href='#' style='color:#00b4d8;'>Forgotten password?</a></p>",unsafe_allow_html=True)
     st.write("— or —")
     if st.button("Continue with Google"):
-        backend_url = st.secrets.get("BACKEND_API_URL", "http://127.0.0.1:8000")
+        backend_url = st.secrets.get("BACKEND_API_URL", "https://pressonit-dekai.hf.space")
         st.markdown(
         f"""
         <meta http-equiv="refresh" content="0; url={backend_url}/auth/google/login">
@@ -599,7 +599,7 @@ def render_signup():
 
     st.write("— or —")
     if st.button("Continue with Google (Sign up)"):
-        backend_url = st.secrets.get("BACKEND_API_URL", "http://127.0.0.1:8000")
+        backend_url = st.secrets.get("BACKEND_API_URL", "https://pressonit-dekai.hf.space")
         st.markdown(
         f"""
         <meta http-equiv="refresh" content="0; url={backend_url}/auth/google/login">
