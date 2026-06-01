@@ -545,7 +545,7 @@ def render_signin():
             "username": email,  # OAuth2 expects 'username'
             "password": pwd
          }
-         r = requests.post(f"{BACKEND_API}auth/login", data=payload)  # 'data' sends form-data
+         r = requests.post(f"{BACKEND_API}/auth/login", data=payload)  # 'data' sends form-data
          if r.status_code == 200:
             data = r.json()
             st.session_state.logged_in = True
@@ -583,7 +583,7 @@ def render_signup():
         # Call FastAPI backend
         try:
             response = requests.post(
-                f"{BACKEND_API}auth/signup",
+                f"{BACKEND_API}/auth/signup",
                 json={"email": email, "name": name, "password": pwd},
                 timeout=10
             )
