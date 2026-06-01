@@ -387,10 +387,10 @@ def render_chat():
      if st.session_state.show_upload:
       with st.expander("📷 Upload Image for Recognition", expanded=True):
         # 📱 added accept_file_types and let Streamlit handle basic extensions natively
-        uploaded_image = st.file_uploader(
-            "Choose an image or take a photo...",
-            type=["jpg", "jpeg", "png"],
-            key="vision_uploader"
+          uploaded_image = st.file_uploader(
+             "Choose an image or take a photo...",
+             type=["jpg", "jpeg", "png"],
+             key="vision_uploader"
         )
 
         # Track state across blocks
