@@ -201,7 +201,7 @@ def call_backend_generate(prompt, temperature=0.7, top_p=0.9, beam_width=1):
     try:
         payload = {"prompt": prompt}
         r = requests.post(
-                f"{BACKEND_API}conversation/{st.session_state.current_conversation_id}/generater",
+                f"{BACKEND_API}/conversation/{st.session_state.current_conversation_id}/generater",
                 json=payload,
                 headers={"Authorization": f"Bearer {st.session_state.user['access_token']}"}
 )
@@ -337,7 +337,7 @@ def render_chat():
         else:
             try:
                 response = requests.post(
-                    f"{BACKEND_API}conversation",
+                    f"{BACKEND_API}/conversation",
                     headers={"Authorization": f"Bearer {st.session_state.user['access_token']}"}
                 )
                 response.raise_for_status()
@@ -351,7 +351,7 @@ def render_chat():
         # Store user message in backend
         try:
             requests.post(
-                f"{BACKEND_API}conversation/{convo_id}/messages",
+                f"{BACKEND_API}/conversation/{convo_id}/messages",
                 json={"sender": "user", "content": user_message},
                 headers={"Authorization": f"Bearer {st.session_state.user['access_token']}"}
             )
@@ -429,7 +429,7 @@ def render_history():
     # Fetch user conversations
     try:
         headers = {"Authorization": f"Bearer {user_token}"}
-        r = requests.get(f"{BACKEND_API}conversation/my", headers=headers, timeout=10)
+        r = requests.get(f"{BACKEND_API}/conversation/my", headers=headers, timeout=10)
         r.raise_for_status()
         conversations = r.json()  # expect list of dicts: {id, title, created_at}
     except requests.exceptions.HTTPError as e:
@@ -468,7 +468,7 @@ def render_history():
         if selected_conv_id:
             # fetch messages for the conversation
             try:
-                r = requests.get(f"{BACKEND_API}message/{selected_conv_id}/messages", headers=headers, timeout=10)
+                r = requests.get(f"{BACKEND_API}/message/{selected_conv_id}/messages", headers=headers, timeout=10)
                 r.raise_for_status()
                 messages = r.json()  # expect list of dicts: {role, content, ts}
             except Exception as e:
@@ -545,7 +545,7 @@ def render_signin():
             "username": email,  # OAuth2 expects 'username'
             "password": pwd
          }
-         r = requests.post(f"{BACKEND_API}auth/login", data=payload)  # 'data' sends form-data
+         r = requests.post(f"{BACKEND_API}/auth/login", data=payload)  # 'data' sends form-data
          if r.status_code == 200:
             data = r.json()
             st.session_state.logged_in = True
