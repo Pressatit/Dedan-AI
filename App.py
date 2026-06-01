@@ -384,7 +384,7 @@ def render_chat():
         st.rerun()  # Rerun to show the assistant reply
 
     # --- Optional Sections ---
-     if st.session_state.show_upload:
+    if st.session_state.show_upload:
      with st.expander("📷 Upload Image for Recognition", expanded=True):
         # 📱 added accept_file_types and let Streamlit handle basic extensions natively
         uploaded_image = st.file_uploader(
