@@ -384,27 +384,47 @@ def render_chat():
         st.rerun()  # Rerun to show the assistant reply
 
     # --- Optional Sections ---
-    if st.session_state.show_upload:
-     with st.expander("📷 Upload Image for Recognition", expanded=True):
+     if st.session_state.show_upload:
+      with st.expander("📷 Upload Image for Recognition", expanded=True):
+        # 📱 added accept_file_types and let Streamlit handle basic extensions natively
         uploaded_image = st.file_uploader(
-            "Choose an image...",
+            "Choose an image or take a photo...",
             type=["jpg", "jpeg", "png"],
             key="vision_uploader"
         )
 
+        # Track state across blocks
+        is_valid_image = False
+        
         if uploaded_image is not None:
-           try:
-             image = Image.open(uploaded_image)
-             st.image(image, caption="Selected image", width=300)
-             # ... pass `image` to your model here ...
-           except UnidentifiedImageError:
-            st.error("❌ The uploaded file is not a valid image. Please upload a PNG or JPG.")
+            try:
+                # Attempt to open and verify the image structure dynamically
+                image = Image.open(uploaded_image)
+                image.verify()  # Deep structural check for corruption
+                
+                # Re-open after verify() because verify() closes the file pointer stream
+                image = Image.open(uploaded_image)
+                st.image(image, caption="Selected image", width=300)
+                is_valid_image = True
+                
+            except UnidentifiedImageError:
+                st.error("❌ The file extension might match, but the internal data is corrupted or not a valid image.")
+            except Exception as e:
+                # Catch-all for permission errors, empty files, truncation, etc.
+                st.error(f"❌ Structural file error: {str(e)}")
 
-        if st.button("Analyze Image"):
-            with st.spinner("Analyzing image..."):
+        # 🔒 The button disables completely if no image is uploaded OR if an error was caught above
+        submit_disabled = not is_valid_image
+
+        if st.button("Analyze Image", disabled=submit_disabled):
+            with st.spinner("Analyzing campus landmark..."):
                 result = call_image_backend(uploaded_image)
-                st.success("Analysis complete")
-                st.write(result)
+                if result and "error" not in result:
+                    st.success("Analysis complete!")
+                    st.write(result)
+                else:
+                    error_msg = result.get("error", "Unknown backend processing error.")
+                    st.error(f"❌ Analysis failed: {error_msg}")
 
 # -------------------------
 # History screen
