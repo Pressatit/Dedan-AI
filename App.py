@@ -133,7 +133,7 @@ def send_bug_email(subject, body):
 # Helpers & defaults
 # -------------------------
 # Backend API URL - use environment variable or Streamlit secrets
-BACKEND_API = st.secrets.get("BACKEND_API_URL", "https://pressonit-dekai.hf.space/") 
+BACKEND_API = st.secrets.get("BACKEND_API_URL", "https://pressonit-dekai.hf.space") 
 MAX_HISTORY_SHOWN = 50
 DEKAI_EMAIL="prestonwachiramwas@gmail.com"
 def init_state():
