@@ -1,5 +1,8 @@
 import os
 import requests
+import logging
+
+logger = logging.getLogger(__name__)
 
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
@@ -21,7 +24,18 @@ def generate_openrouter_reply(
     temperature: float = 0.5, # Reduced for stability
     max_tokens: int = 1000,
 ):
-    api_key = get_openrouter_key()
+    api_key = os.getenv("OPENROUTER_API_KEY")
+
+    if not api_key:
+        # Fallback check in case key has trailing quotes or alternative casing
+        api_key = os.environ.get("OPENROUTER_API_KEY", "").strip("'\" ")
+
+    if not api_key:
+        logger.error("OPENROUTER_API_KEY missing at runtime. Available env keys: %s", list(os.environ.keys()))
+        raise RuntimeError("OPENROUTER_API_KEY not set in system environment")
+
+    selected_model = os.getenv("OPENROUTER_MODEL")
+
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
@@ -30,7 +44,7 @@ def generate_openrouter_reply(
     }
 
     payload = {
-        "model": model,
+        "model": selected_model,
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
